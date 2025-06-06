@@ -5,9 +5,9 @@ public class Main {
         Author author2 = new Author("Маргарет", "Митчил", 4);
         Author author3 = new Author("Стивен", "Кинг", 3);
 
-        Book book1 = new Book("Гарри Поттер", 2021,author1,650);
-        Book book2 = new Book("Унесенные Ветром", 1972,author2,420);
-        Book book3 = new Book("Зеленая Миля", 2025,author3,320);
+        Book book1 = new Book("Гарри Поттер", 2021, author1, 650);
+        Book book2 = new Book("Унесенные Ветром", 1972, author2, 420);
+        Book book3 = new Book("Зеленая Миля", 2025, author3, 320);
 
         System.out.println(book1.isBig());
         System.out.println(book2.isBig());
